@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portofolio</title>
+    <link rel="shortcut icon" href="asset/MeticLogo.png" />
+    <!-- Embedding Css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Embedding FontAwoseme -->
+    <script src="https://kit.fontawesome.com/22a69e2285.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav class="navbar">
+        <div class="content-nav">
+            <div class="logo">
+                <p>Inggardwip</p>
+            </div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="index3.html">Price</a>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content col-4">
+                <h1>
+                    Eco <br /> Friendly Cafe
+                </h1>
+                <p>
+                    Welcome to eco friendly cafe, enjoy our menu, please log in first to order the menu, enjoy!
+                </p>
+                <a href="index2.html" class="btn">Order Now</a>
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-lg-7 col-xl-6">
+                <img src="LogoCafe.png" width="500" class="img-fluid" alt="Phone image">
+            </div>
+        </div>
+        </div>
+        <div class="image" data-tilt>
+            <img src="asset/image.svg" alt="" />
+        </div>
+    </section>
+
+    <!-- Embedding JavaScript -->
+    <script src="script.js"></script>
+    <!-- Embedding Vanilla Tilt JS -->
+    <script src="script.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".image"), {
+            max: 25,
+            speed: 400,
+        });
+    </script>
+</body>
+
+</html>
